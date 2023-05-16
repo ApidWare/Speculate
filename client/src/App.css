@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #ece4e4;
+}
+#topBar {
+  height: 90px;
+  width: 100%;
+  background: #C88EA7;
+  display: flex;
+  padding-left: 55px;
+  align-items: center;
+}
+#glanceContainer {
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 50px;
+}
+#glanceTitle {
+  font-family: 'Crimson Text', serif;
+  font-size: 4.5rem;
+  color: #7a3a47;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+#topBarTitle {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+}
+#getStarted {
+  border: 1px solid #99627A;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: .9rem;
+  transition: .2s;
+}
+#getStarted:hover {
+  cursor: pointer;
+  border-radius: 0;
+  /*padding-top: 25px;*/
+  /*padding-bottom: 25px;*/
+  background: #99627A;
+  color: #fff;
+  transform: scale(1.15);
+}
+#topBarButtons {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -100px;
+  font-family: 'Montserrat', sans-serif;
+}
+#otherLinks {
+  display: flex;
+  font-size: .9rem;
+  margin-right: 20px;
+}
+#whoAreWe {
+  margin-left: 15px;
+}
+.otherLinks:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #7a3a47;
+}
+#glanceDescription {
+  position: relative;
+  top: 65px;
+  left: 65px;
+  font-size: 1.25rem;
+}
+#glanceButton {
+  position: relative;
+  top: 100px;
+  left: 60px;
+  border: 1px solid #7a3a47;
+  width: 200px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 50px;
+  transition: .2s;
+}
+#glanceButton:hover {
+  cursor: pointer;
+  border-radius: 0;
+  background: #99627A;
+  color: #fff;
+}
+b {
+  font-size: 1.4rem;
+}
+#hr {
+  height: 1px;
+  width: 100%;
+  background: #99627A;
+  position: relative;
+  top: 155px;
+}
+#glanceImage {
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  top: 145px;
+}
+#cardContainer {
+  position: relative;
+  top: 210px;
+  left: 45px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+}
+#card {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #99627A;
+  border-radius: 20px;
+  transition: .2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#cardsTitle {
+  font-size: 1.5rem;
+  position: relative;
+  top: 180px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+#card:hover {
+  cursor: pointer;
+  transform: scale(1.12);
+  box-shadow: 0 0 10px #99627A;
+}
+#cardImage {
+  height: 160px;
+  width: 300px;
+  object-fit: cover;
+}
+#cardTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+}
+#cardDescription {
+  font-size: .8rem;
+  color: #555;
+}
+#cardAuthor {
+  font-size: .8rem;
+}
